@@ -114,5 +114,5 @@ if __name__ == '__main__':
 
             seq.append(chord)
         timestamp = time.strftime("%Y%m%d_%H%M")
-        writer.dump_sequence_to_midi(seq, model_path + "_" + timestamp + "best.midi", 
+        writer.dump_sequence_to_midi(seq, model_path + "_" + timestamp + "_best.midi", 
             time_step=time_step, resolution=resolution)
